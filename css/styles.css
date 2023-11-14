@@ -87,13 +87,13 @@ html{
     border-right: 1px solid #e2e2e2; 
 }
 
-.container-user .fa-basket-shopping{
+.container-user .fa-envelopes-bulk{
     font-size: 3rem;
     color: var(--primary-color);
     padding-left: 1rem;
 }
 
-.content-shopping-cart{
+.content-contact{
     display: flex;
     flex-direction: column;
 }
@@ -118,7 +118,7 @@ html{
     display: flex;
     gap: 2rem;
     list-style: none; /* Elmina el estilo * a la lista del menu */ 
-}
+ }
 
 .menu a{
     text-decoration: none;
@@ -195,7 +195,7 @@ html{
 
 /*  BANNER  */
 .banner{
-    background-image: /*linear-gradient(100deg,#000000,#00000020),*/ url('img/banner.jpg');
+    background-image: url("../img/banner.jpg");
     background-position: center;
     background-size: cover;
     height: 50%;
@@ -304,21 +304,21 @@ html{
 }
 
 .category-moca{
-    background-image: linear-gradient(#00000080, #00000080), url("img/moca-category.jpg");
+    background-image: linear-gradient(#00000080, #00000080), url("../img/moca-category.jpg");
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
 }
 
 .category-capuchino{
-    background-image: linear-gradient(#00000080, #00000080), url("img/capuchino-category.jpg");
+    background-image: linear-gradient(#00000080, #00000080), url("../img/capuchino-category.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .category-expreso{
-    background-image: linear-gradient(#00000080, #00000080), url("img/expreso-category.jpg");
+    background-image: linear-gradient(#00000080, #00000080), url("../img/expreso-category.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -662,7 +662,7 @@ html{
 }
 
 .content-blog h3{
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     margin-bottom: 1.7rem;
     color: var(--dark-color);
     font-weight: 500;
@@ -671,12 +671,17 @@ html{
 .content-blog h3:hover{
     color: var(--primary-color);
     cursor: pointer;
+    text-decoration: none;
 }
 
 .content-blog p{
     margin-top: 1rem;
     font-size: 1.4rem;
     color: #777;
+}
+
+.content-blog a{
+    text-decoration: none;
 }
 
 .content-blog span{
