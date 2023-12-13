@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aromas</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
     <header>
         <div class="container-hero">
             <div class="container hero">
-                <div class="customer-support">
+                <div class=" customer-support">
                     <i class="fa-solid fa-headset"></i>
                     <div class="content-customer-support">
                         <span class="text">Soporte al cliente</span>
@@ -24,29 +24,29 @@
                     <i class="fa-solid fa-mug-hot"></i>
                     <a href="https://www.flaticon.es/iconos-gratis/comida-y-restaurante"
                         title="comida y restaurante iconos"></a>
-                    <h1 class="logo"><a href="/">Aromas</a></h1>
+                    <h1 class="logo"><a href="#">Aromas</a></h1>
                 </div>
 
                 <div class="container-user">
                     <i class="fa-solid fa-user"></i>
-                    <i class="fa-solid fa-basket-shopping"></i>
-                    <div class="content-shopping-cart">
+                    <a href="form.html" alt="Contáctanos"><i class="fa-solid fa-envelopes-bulk"></i></a>
+                    <!--  <div class="content-contact">
                         <span class="text">Carrito</span>
-                        <span class="number">(0)</span>
-                    </div>
+                        <span class="number">(0)</span>-->
                 </div>
             </div>
+        </div>
         </div>
         <div class="container-navbar">
             <nav class="navbar container">
                 <i class="fa-solid fa-bars"></i>
                 <ul class="menu">
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Moca Helado</a></li>
-                    <li><a href="#">Expreso</a></li>
-                    <li><a href="#">Capuchino</a></li>
+                    <li><a href="#ancla-inicio">Inicio</a></li>
+                    <li><a href="#ancla-1">Mejores categorías</a></li>
+                    <li><a href="#ancla-2">Bebidas destacadas</a></li>
+                    <li><a href="#ancla-3">Libros más consultados</a></li>
                     <li><a href="#">Más</a></li>
-                    <li><a href="#">Blog</a></li>
+                    <li><a href="#blogs">Blog</a></li>
                 </ul>
                 <form class="search-form">
                     <input type="search" placeholder="Buscar...">
@@ -58,8 +58,504 @@
         </div>
     </header>
 
-    <script src="https://kit.fontawesome.com/eaeacebbfa.js" crossorigin="anonymous">
-    </script>
+    <a name="ancla-inicio"></a>
+    <section class="banner">
+        <div class="content-banner">
+            <p>Ambiente cálido e íntimo </p>
+            <h2>El delicioso aroma de las letras<!-- <br>Los mejores aromas de Café Fresco --></h2>
+            <a href="Quienessomos.html">Conocer más</a>
+        </div>
+    </section>
+
+    <main class="main-content">
+        <section class="container container-features">
+            <div class="card-feature">
+                <i class="fa-solid fa-envelopes-bulk"></i>
+                <div class="feature-content">
+                    <span>Experiencia</span>
+                    <p>Nos interesan tus sugerencias</p>
+                </div>
+            </div>
+            <div class="card-feature">
+                <i class="fa-solid fa-wallet"></i>
+                <div class="feature-content">
+                    <span>Contrarreembolso</span>
+                    <p>100% garantía de devolución de dinero</p>
+                </div>
+            </div>
+            <div class="card-feature">
+                <i class="fa-solid fa-gift"></i>
+                <div class="feature-content">
+                    <span>Tarjeta regalo especial</span>
+                    <p>Bonos especiales para regalar</p>
+                </div>
+            </div>
+            <div class="card-feature">
+                <i class="fa-solid fa-headset"></i>
+                <div class="feature-content">
+                    <span>Servicio al cliente 24/7</span>
+                    <p>Comunicate 24/7 al 123-456-7890</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CATEGORIAS DE BEBIDAS -->
+        <section class="container top-categories">
+            <a name="ancla-1"></a>
+            <h1 class="heading-1">Mejores Categorías</h1>
+            <div class="container-categories">
+                <div class="card-category category-moca">
+                    <p>Café moca</p>
+                    <span>Ver más</span>
+                </div>
+                <div class="card-category category-expreso">
+                    <p>Expreso Americano</p>
+                    <span>Ver más</span>
+                </div>
+                <div class="card-category category-capuchino">
+                    <p>Capuchino</p>
+                    <span>Ver más</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="container top-products">
+            <a name="ancla-2"></a>
+            <h1 class="heading-1">Bebidas destacadas</h1>
+
+            <div class="container-options">
+                <span class="active">Destacados</span>
+                <span>Más recientes</span>
+                <span>Más pedidos</span>
+            </div>
+
+            <div class="container-products">
+                <!-- PRODUCT 1 -->
+                <div class="card-product">
+                    <div class="container-img">
+                        <img src="img/cafe-irish.jpg" alt="Café Irish">
+                        <span class="discount">-13%</span>
+                        <div class="button-group">
+                            <span>
+                                <i class="fa-regular fa-eye"></i>
+                            </span>
+                            <span>
+                                <i class="fa-regular fa-heart"></i>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-code-compare"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <h3>Café Irish</h3>
+                        <span class="add-cart">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </span>
+                        <p class="price">$1.200 <span>$1.800</span></p>
+                    </div>
+                </div>
+                <!-- PRODUCTO 2 -->
+                <div class="card-product">
+                    <div class="container-img">
+                        <img src="img/cafe-viena.jpg" alt="Café Viena">
+                        <span class="discount">-22%</span>
+                        <div class="button-group">
+                            <span>
+                                <i class="fa-regular fa-eye"></i>
+                            </span>
+                            <span>
+                                <i class="fa-regular fa-heart"></i>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-code-compare"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <h3>Café Viena</h3>
+                        <span class="add-cart">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </span>
+                        <p class="price">$1.300 <span>$2.000</span></p>
+                    </div>
+                </div>
+                <!-- PRODUCT 3 -->
+                <div class="card-product">
+                    <div class="container-img">
+                        <img src="img/cafe-australiano.jpg" alt="Café Australiano">
+                        <div class="button-group">
+                            <span>
+                                <i class="fa-regular fa-eye"></i>
+                            </span>
+                            <span>
+                                <i class="fa-regular fa-heart"></i>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-code-compare"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h3>Café Australiano</h3>
+                        <span class="add-cart">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </span>
+                        <p class="price">$2.100</p>
+                    </div>
+                </div>
+                <!-- PRODUCT 4 -->
+                <div class="card-product">
+                    <div class="container-img">
+                        <img src="img/cafe-helado.jpg" alt="Café Helado">
+                        <span class="discount">-15%</span>
+                        <div class="button-group">
+                            <span>
+                                <i class="fa-regular fa-eye"></i>
+                            </span>
+                            <span>
+                                <i class="fa-regular fa-heart"></i>
+                            </span>
+                            <span>
+                                <i class="fa-regular fa-code-compare"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h3>Café Helado</h3>
+                        <span class="add-cart">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </span>
+                        <p class="price">$1.800 <span>$2.100</span></p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- END CATEGORIES OF DRINKS -->
+
+        <!-- CATEGORIES OF BOOKS -->
+
+        <section class="container top-products">
+            <a name="ancla-3"></a>
+            <h1 class="heading-1">Libros más consultados</h1>
+
+            <div class="container-options">
+                <span class="active">Destacados</span>
+                <span>Más recientes</span>
+                <span>Más pedidos</span>
+            </div>
+
+            <div class="container-products">
+                <!-- BOOK 1 -->
+                <div class="card-book">
+                    <div class="container-img2">
+                        <img src="img/book1.jpg" alt="Book 1">
+                        <div class="button-group1">
+                            <span>
+                                <i class="fa-regular fa-eye"></i>
+                            </span>
+                            <span>
+                                <i class="fa-regular fa-heart"></i>
+                            </span>
+                            <span>
+                                <i class="fa-regular fa-code-compare"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h3>El alquimista, de P. Coelho</h3>
+                    </div>
+                </div>
+                <!-- BOOK 2 -->
+                <div class="card-book">
+                    <div class="container-img2">
+                        <img src="img/book2.jpg" alt="Book 2">
+                        <div class="button-group1">
+                            <span>
+                                <i class="fa-regular fa-eye"></i>
+                            </span>
+                            <span>
+                                <i class="fa-regular fa-heart"></i>
+                            </span>
+                            <span>
+                                <i class="fa-regular fa-code-compare"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <h3>El código Da Vinci</h3>
+                    </div>
+                </div>
+                <!-- LIBRO 3 -->
+                <div class="card-product">
+                    <div class="container-img">
+                        <img src="img/book3.jpg" alt="Book 3">
+                        <div class="button-group1">
+                            <span>
+                                <i class="fa-regular fa-eye"></i>
+                            </span>
+                            <span>
+                                <i class="fa-regular fa-heart"></i>
+                            </span>
+                            <span>
+                                <i class="fa-regular fa-code-compare"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <h3>El Padrino, M. Puzo</h3>
+                    </div>
+                </div>
+                <!-- lIBRO 4 -->
+                <div class="card-product">
+                    <div class="container-img">
+                        <img src="img/book4.jpg" alt="Book 4">
+                        <div class="button-group1">
+                            <span>
+                                <i class="fa-regular fa-eye"></i>
+                            </span>
+                            <span>
+                                <i class="fa-regular fa-heart"></i>
+                            </span>
+                            <span>
+                                <i class="fa-regular fa-code-compare"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h3>La Torre oscura, S. King</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FIN CATEGORIA DE LIBROS -->
+
+        <section class="gallery">
+            <img src="img/gallery1.jpg" alt="Gallery Img1" class="gallery-img-1">
+            <img src="img/gallery2.jpg" alt="Gallery Img2" class="gallery-img-2">
+            <img src="img/gallery3.jpg" alt="Gallery Img3" class="gallery-img-3">
+            <img src="img/gallery4.jpg" alt="Gallery Img4" class="gallery-img-4">
+            <img src="img/gallery5.jpg" alt="Gallery Img5" class="gallery-img-5">
+        </section>
+
+        <section id="blogs" class="container blogs">
+            <h1 class="heading-1">Últimos blogs con Aroma a Letras</h1>
+
+            <div class="container-blogs">
+                <div class="card-blog">
+                    <div class="container-img">
+                        <img src="img/imagen1.jpg" alt="Imagen Blog 1">
+                        <div class="button-group-blog">
+                            <span>
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-link"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-blog">
+                        <a href="blog1.html">
+                            <h3>"El túnel", de Ernesto Sábato</h3>
+                        </a>
+                        <span>5 de Noviembre 2023</span>
+                        <P>
+                            No sabía de qué se trataba pero siempre me llamó la atención su nombre y el autor, que ya
+                            siendo argentino me anima.
+
+                            La sinopsis y sin spoilers es que este libro cuenta la historia de Juan Pablo Castel
+                            (narrador), quien mató a María Iribarne, su enamorada.
+                        </P>
+                        <a href="blog1.html">
+                            <div class="btn-read-more">Leer más</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="card-blog">
+                    <div class="container-img">
+                        <img src="img/blog-2.jpg" alt="Imagen Blog 2">
+                        <div class="button-group-blog">
+                            <span>
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-link"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-blog">
+                        <a href="blog2.html">
+                            <h3>"El tiempo de las moscas”, de C. Piñeiro</h3>
+                        </a>
+                        <span>12 de Noviembre 2023</span>
+                        <P>
+                            En este libro continúa la historia de Inés, una Sra. de la alta sociedad que en el primer libro
+                            comete un asesinato por todo un lindo lío que se armó. Un culebrón de novela? Y sí … más o
+                            menos.
+                        </P>
+
+                        <a href="blog2.html">
+                            <div class="btn-read-more">Leer más</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="card-blog">
+                    <div class="container-img">
+                        <img src="img/imagen3.jpg" alt="Imagen Blog 3">
+                        <div class="button-group-blog">
+                            <span>
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-link"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-blog">
+                        <a href="blog3.html">
+                            <h3>Otra vuelta de tuerca, de Henry James</h3>
+                        </a>
+                        <span>14 de Noviembre 2023</span>
+                        <P>
+                            Si nos guiamos por la sinopsis, es una historia que se repite en varios libros. Niños
+                            huérfanos, institutriz,
+                            casa alejada de la ciudad, apariciones extrañas. Pero hay algo que lo destaca, por eso es un
+                            clásico del terror.
+                            Marcó un antes y y un después en este género ya que deja en el lector la interpretación
+                            de lo que ocurre en la historia.
+                        </P>
+                        <a href="blog3.html">
+                            <div class="btn-read-more">Leer más</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container container-footer">
+            <div class="menu-footer">
+                <div class="contact-info">
+                    <p class="title-footer">Contacto</p>
+                    <ul>
+                        <li>Av.Poeta Lugones 790</li>
+                        <li>Córdoba, Argentina</li>
+                        <li>123-456-7890</li>
+                        <li>aromas@gmail.com</li>
+                    </ul>
+                    <div class="social-icons">
+                        <span class="facebook"><i class="fa-brands fa-facebook"></i></span>
+                        <span class="twitter"><i class="fa-brands fa-twitter"></i></span>
+                        <span class="youtube"><i class="fa-brands fa-youtube"></i></span>
+                        <span class="instagram"><i class="fa-brands fa-instagram"></i></span>
+                    </div>
+                </div>
+                <div class="information">
+                    <p class="title-footer">Información</p>
+                    <ul>
+                        <li><a href="#">Acerca de</a></li>
+                        <li><a href="#">Ubicación</a></li>
+                        <li><a href="#">Información</a></li>
+                        <li><a href="#">Contactanos</a></li>
+                    </ul>
+                </div>
+                <div class="inline-frame">
+                    <p class="title-footer">Ubicación</p>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.5757269216615!2d-64.18129622447613!3d-31.425813574257386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a2913e8aee09%3A0x99073735255bb39d!2sAv.%20Poeta%20Leopoldo%20Lugones%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1700486627531!5m2!1ses-419!2sar"
+                        width="600" height="200" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="my-account">
+                    <p class="title-footer">Mi cuenta</p>
+                    <ul>
+                        <li><a href="#">Mi cuenta</a></li>
+                        <li><a href="#">Historial de órdenes</a></li>
+                        <li><a href="#">Lista de deseos</a></li>
+                        <li><a href="#">Boletín</a></li>
+                    </ul>
+                </div>
+                <div class="newsletter">
+                    <p class="title-footer">Mi cuenta</p>
+
+                    <div class="content">
+                        <p>Suscríbete al boletín y mantente informado sobre nuevas colecciones y ofertas exclusivas</p>
+                        <input type="email" placeholder="Ingresa tu correo aquí...">
+                        <button onclick="subscribe()">Suscribirme</button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Desarrollado por Adriana Bigotti &copy; 2023</p>
+
+                <img src="img/payment.png" alt="Medios de Pago">
+            </div>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/eaeacebbfa.js" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
 
 </body>
 
